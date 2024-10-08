@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.png");
+    text-align:center;
+}
+h1{
+    background-color:#662549;
+    color:#B6EADA;
+    height:100px;
+    line-height:5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    border-bottom :25px solid #E63E6D;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.score{
+    color:#E63E6D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    font-size: xx-large;
+    padding:20px;
+}
+.scoreboard
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-color: #662549;
+
+}
+.options
+{
+    display:inline;
+    height:180px;
+    width:180px;
+    margin:95px;
+    border-radius:50%;
+    border:10px solid #E63E6D;
+    background-color: #B6EADA;
+
+}
+#reset
+{
+    background-color:#E63E6D;
+    color:#B6EADA;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    height:50px;
+    width: 100px;
+    line-height: 3rem;
+    border:2px solid  #B6EADA;
+}
+#footer{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color:#662549;
+      text-align: start;
+      color:#B6EADA;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#E63E6D;
+}
+#msg
+
+{
+    background-color:#662549;
+    color:#B6EADA;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:800;
+    display:block;
+    position:relative;
+    top:20px;
+    height:50px;
+    line-height: 3rem;
+    border:2px solid #E63E6D; 
+}
+.options:hover
+{
+  border-color:black;
+}
