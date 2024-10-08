@@ -35,9 +35,9 @@ const play=(uc)=>{
     
         else if (uc==="paper") win=cpu==="scissors"?false:true;
         else win=cpu==="rock"?false:true;
-        showWinner(win);
         if(win===true) userScore++;
         else compScore++;
+        showWinner(win);
     }
 }
 options.forEach((op)=>{
