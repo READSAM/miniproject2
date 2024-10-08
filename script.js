@@ -12,6 +12,7 @@ reset.onclick=()=>
     compScore=0;
     User.innerText=userScore;
     CPU.innerText=compScore;
+    msg.innerText="Play your move!";
 }
 const draw=()=>
 {
